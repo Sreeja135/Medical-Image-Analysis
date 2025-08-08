@@ -1,0 +1,25 @@
+MEDICAL IMAGE ANALYSIS USING DEEP LEARNING
+Overview: 
+This project leverages deep learning to address two key challenges in medical imaging:
+1.Bone Age Prediction – Estimating skeletal maturity using hand X-ray images.
+2.Brain Tumor Detection – Identifying and segmenting tumors from brain MRI scans.
+Using state-of-the-art deep learning techniques, the models are designed to assist medical 
+professionals in delivering faster and more accurate diagnostics.
+
+Key Technologies & Techniques:
+1.Convolutional Neural Networks (CNNs)
+2.U-Net, V-Net, Mask R-CNN for segmentation tasks
+3.Transfer Learning using pre-trained models (e.g., VGG16, ResNet50)
+4.Generative Adversarial Networks (GANs) for synthetic data and improvement
+5.Image Preprocessing & Augmentation.
+
+Use Cases:
+1. Bone Age Prediction:
+Dataset: Hand X-ray images
+Approach: Regression-based CNN to predict age
+Evaluation: MAE (Mean Absolute Error)
+2.Brain Tumor Detection:
+Dataset: Brain MRI images (with labeled tumor regions)
+Approach: U-Net + Transfer Learning for pixel-level segmentation
+Evaluation: Dice Coefficient, IoU.
+
